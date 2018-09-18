@@ -1,11 +1,12 @@
 package com.tecyang.feignconsumer.Service;
 
 import com.tecyang.feignconsumer.Model.User;
+import com.tecyang.feignconsumer.Service.Fallback.HelloServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 //进行服务的绑定
-@FeignClient("HelloService")
+@FeignClient(value = "HelloService", fallback = HelloServiceFallback.class)
 public interface HelloService {
     //    进行具体的rest接口的绑定
     @RequestMapping("/Hello")

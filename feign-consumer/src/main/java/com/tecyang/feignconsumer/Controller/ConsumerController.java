@@ -1,6 +1,5 @@
 package com.tecyang.feignconsumer.Controller;
 
-import com.netflix.discovery.converters.Auto;
 import com.tecyang.feignconsumer.Model.User;
 import com.tecyang.feignconsumer.Service.HelloService;
 import com.tecyang.feignconsumer.Service.RefactorHelloService;
