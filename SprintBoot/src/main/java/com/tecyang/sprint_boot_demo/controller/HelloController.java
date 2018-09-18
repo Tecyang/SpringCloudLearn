@@ -1,14 +1,23 @@
 package com.tecyang.sprint_boot_demo.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 import com.tecyang.sprint_boot_demo.Model.*;
+
+import java.util.Random;
 
 @RestController
 public class HelloController {
 
-    @RequestMapping("/Hello")
-    public Object Index()
+    private Logger logger = LoggerFactory.getLogger("HelloService");
+
+    @RequestMapping(value = "/Hello", method = RequestMethod.GET)
+    public String hello() throws Exception
     {
+        int sleepTime = new Random().nextInt(3000);
+        logger.info("sleepTIme" + sleepTime);
+        Thread.sleep(sleepTime);
         return "Hello";
     }
 

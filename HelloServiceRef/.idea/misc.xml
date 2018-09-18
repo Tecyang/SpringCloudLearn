@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/../hello-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/../SprintBoot/pom.xml" />
         <option value="$PROJECT_DIR$/../feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud/pom.xml" />
       </list>
     </option>
   </component>
