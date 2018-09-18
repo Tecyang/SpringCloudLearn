@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hello-service-api/api-geteway.iml" filepath="$PROJECT_DIR$/../hello-service-api/api-geteway.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hello-service-api/eureka.iml" filepath="$PROJECT_DIR$/../hello-service-api/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hello-service-api/feign-consumer.iml" filepath="$PROJECT_DIR$/../hello-service-api/feign-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hello-service-api/hello-service-api.iml" filepath="$PROJECT_DIR$/../hello-service-api/hello-service-api.iml" />
